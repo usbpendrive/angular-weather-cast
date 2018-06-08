@@ -25,8 +25,7 @@ interface ICurrentWeatherData {
 }
 
 export interface IWeatherService {
-  getCurrentWeather(city: string, country: string):
-    Observable<ICurrentWeather>
+  getCurrentWeather(city: string, country: string): Observable<ICurrentWeather>
 }
 
 @Injectable({
